@@ -1,0 +1,308 @@
+//
+// LAYOUTS
+// Place all of your custom styles in here. This stylesheet is loaded last,
+// and takes precedence over all others.
+//
+// --------------------------------------------------
+
+body {
+  -moz-osx-font-smoothing: grayscale; // enable font-smoothing for browsers that support it
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-size: @font-size-base;
+  font-family: 'Saira Condensed', sans-serif;
+  opacity: 0;
+  color: @brand-black;
+  background: @brand-light;
+}
+
+img {
+  height: auto;
+}
+
+.fade-in {
+  opacity: 1;
+  .transition(300ms, ease-in)
+}
+
+h1, h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+  color: @brand-black
+}
+
+h1 {
+  text-transform: uppercase;
+  color: @brand-blue;
+  font-size: 4em;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  color: @brand-red;
+  font-size: 2.8em;
+  text-transform: lowercase;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  color: @brand-red;
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+
+}
+
+h5 {
+  font-size: 1em;
+  margin: 0 0 3px 0;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: @brand-blue;
+}
+
+a:hover {
+  color: @brand-red;
+}
+a:hover {
+  svg{
+    color: @brand-red;
+  }
+
+}
+
+strong {
+  color: #000;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  width: 100%;
+  .card-header {
+    margin: -10px -10px 10px -10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .card-content {
+    margin: 0px -10px 0px -10px;
+    padding: 10px;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .faq-card {
+    flex-grow: 1;
+    flex-basis: auto;
+
+    margin: 10px;
+  }
+}
+.definition-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .definition-card {
+    flex-grow: 1;
+    flex-basis: auto;
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    h3 {
+      text-align: center;
+    }
+  }
+}
+.characters {
+  span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+.candidate-table {
+  margin-bottom: 10px;
+  sup {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .table-row {
+    min-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .cell {
+      flex-grow: 1;
+      padding: 5px 10px;
+      flex-basis: 0;
+      text-align: center;
+      border: 1px solid @brand-red;
+
+    }
+    .cell.name {
+      text-align: right;
+      background: @brand-red;
+      color:#fff;
+      font-weight: 700;
+      min-width: 80px;
+    }
+    .cell.blank {
+      min-width: 80px;
+    }
+
+  }
+  .table-row.header {
+    font-size: 1.4em;
+    border-bottom: none;
+    color: #fff;
+    text-align: center;
+    .number{
+      font-size: 2.2em;
+      font-weight: 700;
+    }
+    .cell {
+      background: @brand-red;
+    }
+
+  }
+
+}
+.alert {
+  ol {
+    margin-left: 30px;
+    strong{
+      color: inherit;
+      color: inherit;
+    }
+  }
+}
+.background {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.background.other {
+  background: darken(@brand-light, 20%);
+
+}
+
+.background.dark {
+  background: @brand-black;
+  * {
+    color: @brand-light;
+  }
+  a:hover {
+    color: lighten(@brand-light, 20%);
+  }
+
+}
+
+.background.blue {
+  background: @brand-blue;
+  * {
+    color: @brand-light;
+  }
+  a:hover {
+    color: lighten(@brand-light, 20%);
+  }
+}
+
+.background.red {
+  background: @brand-red;
+  * {
+    color: @brand-light;
+  }
+  a:hover {
+    color: lighten(@brand-light, 20%);
+  }
+}
+.background.light {
+  background: @brand-light;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.social-icons {
+  text-align: center;
+}
+.footer-brand {
+  background: @brand-black;
+}
+.credit {
+  background: @brand-black;
+  color: @brand-light;
+  border-top: 6px solid @brand-red;
+  img {
+    max-width: 50%;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+.checkbox {
+  display: inline-block;
+}
+.spanish-content {
+  display: none;
+}
+
+
+ul, ol {
+  margin: 3px 0 3px 40px;
+  li {
+
+  }
+}

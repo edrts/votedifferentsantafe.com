@@ -1,0 +1,43 @@
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+  h1 {
+    color: $brand-blue;
+    font-weight: 600;
+    font-size: 5em;
+    margin-bottom: 0;
+    line-height: 67px;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 1em;
+  }
+}
+.navbar-brand {
+  padding: 0;
+  width: 46px;
+  margin: 0 20px 0 0;
+}
+.row {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+nav.navbar {
+  border-top: 10px solid $brand-red;
+  border-radius: 0;
+}
+
+
+.btn-success {
+  color: #fff;
+  background-color: $brand-red;
+  border-color: none;
+  border: none;
+  h3 {
+    color: #fff;
+  }
+}
+.btn-success:hover {
+  background: darken($brand-red, 10%);
+}

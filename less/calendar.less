@@ -1,0 +1,106 @@
+.cld-main {
+
+  a {
+    color: @brand-blue;
+  }
+}
+.cld-datetime {
+  position: relative;
+  width: 66%;
+  min-width: 100px;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  .today {
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+  }
+}
+.cld-nav {
+  &:hover {
+    cursor: pointer;
+    svg {
+      fill: #666;
+    }
+  }
+}
+.cld-rwd {
+  float: left;
+}
+.cld-fwd {
+  float: right;
+}
+.cld-labels {
+  padding-left: 0;
+}
+.cld-days {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cld-label {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 14.28%;
+  text-align: center;
+}
+.cld-day {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 14.28%;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #ddd;
+  overflow-y: hidden;
+  min-height: 120px;
+
+}
+
+.cld-day.today {
+  border: 2px solid @brand-red;
+}
+.cld-day.disableDay {
+  opacity: 0.5;
+}
+.cld-day.nextMonth {
+  opacity: 0.33;
+}
+.cld-day.prevMonth {
+  opacity: 0.33;
+}
+.cld-number {
+  margin: 0;
+  text-align: left;
+}
+.cld-title {
+  display: block;
+  margin: 0;
+  font-weight: normal;
+  font-size: .8em;
+  span {
+    display: block;
+    width: 100%;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+  .time {
+
+  }
+  .location {
+
+  }
+
+}
+.cld-number.eventday {
+  font-weight: bold;
+}
