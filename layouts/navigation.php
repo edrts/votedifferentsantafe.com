@@ -24,16 +24,7 @@
               <a href="/"><i class="fas fa-home"></i><strong> Home</strong></a>
             </li>
             <li class="nav-item px-1 px-lg-3">
-              <a href="/votingcc"><i class="fas fa-check-square"></i> Voting Locations</a>
-            </li>
-            <li class="nav-item px-1 px-lg-3">
-              <a href="/earlyvoting"><i class="far fa-clock"></i> Election Info</a>
-            </li>
-            <li class="nav-item px-1 px-lg-3">
               <a href="/practice-ballot"><i class="fas fa-check-circle"></i> Practice Ballot</a>
-            </li>
-            <li class="nav-item px-1 px-lg-3">
-              <a href="/dates"><i class="fas fa-calendar-check"></i> Important Dates</a>
             </li>
             <li class="nav-item px-1 px-lg-3">
               <a href="https://www.facebook.com/SantaFeGov/" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -43,17 +34,15 @@
                    aria-expanded="false">More Information</a>
                 <ul class="dropdown-menu">
                     <li><a href="/practice-ballot"><i class="fas fa-check-circle"></i> Practice Ballot</a></li>
-                    <li><a href="/downloads"><i class="fas fa-file-download"></i> Downloads and Resources</a></li>
+                    <li><a href="https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/" target="_blank"><i class="fas fa-clipboard-list-check"></i> Voter
+                            Information</a></li>
+                    <li role="separator" class="divider"></li>
                     <li>
-                        <a href="https://www.santafenm.gov/district_and_precinct_map"><i
-                                    class="fas fa-map-marker"></i> District and Precinct Map</a>
+                        <a href="https://www.santafecountynm.gov/clerk/elections_information/rle_2021"
+                           target="_blank"><i class="fas fa-file-alt"></i> County Clerk</a>
                     </li>
-                    <li><a href="http://www.sos.state.nm.us/Voter_Information/Voter_Registration_Information.aspx"><i class="fas fa-clipboard-list-check"></i> Voter
-                            Registration Information</a></li>
-                    <li>
-                        <a href="https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx?AspxAutoDetectCookieSupport=1"
-                           target="_blank"><i class="fas fa-file-alt"></i> Register to Vote</a>
-                    </li>
+                    <li><a href="https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/"
+                           target="_blank"><i class="fas fa-file-alt"></i> Secretary of State</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="https://www.facebook.com/sharer/sharer.php?u=votedifferentsantafe.com"
                            target="_blank"><i class="fab fa-facebook"></i> Share on Facebook</a></li>
@@ -61,9 +50,5 @@
             </li>
           </ul>
         </div>
-
-
-
-
     </div><!-- /.container-fluid -->
 </nav>

@@ -17,8 +17,7 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <h3 align="center">
-                    <span class="english-content">When you step into the voting booth, you’ll notice some changes this year.
-                    Here’s what you need to know.
+                    <span class="english-content">In the 2008 election, Santa Feans voted to put Ranked Choice Voting (RCV) into the City Charter. RCV was used in the 2018 election. If you need a refresher, here’s what you need to know.
                     </span>
                     <span class="spanish-content">Te darás cuenta de algunos cambios cuando entres a la cabina electoral. Esto es lo que debes saber:
                     </span>
