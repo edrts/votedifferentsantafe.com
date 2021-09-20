@@ -36,6 +36,8 @@
                     <li><a href="/practice-ballot"><i class="fas fa-check-circle"></i> Practice Ballot</a></li>
                     <li><a href="https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/" target="_blank"><i class="fas fa-clipboard-list-check"></i> Voter
                             Information</a></li>
+                    <li><a href="/candidates" target="_blank"><i class="fas fa-clipboard-list-check"></i>
+                            2021 Candidates</a></li>
                     <li role="separator" class="divider"></li>
                     <li>
                         <a href="https://www.santafecountynm.gov/clerk/elections_information/rle_2021"
