@@ -166,6 +166,26 @@ You also have the option of ranking just one candidate. You do not need to rank 
                             </div>
                         </div>
                     </div>
+                    <div class="faq-card margin-bottom">
+                        <div class="card">
+                            <div class="card-header">
+                                <span class="english-content">
+                                <h3>Who conducts the election?</h3>
+                                </span>
+                                <span class="spanish-content">
+                                <h3>Who conducts the election?</h3>
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <span class="english-content">
+                                <p>The City of Santa Fe is providing educational material regarding Ranked Choice Voting for the upcoming election. The City "opted-in" to the Local Election Act in 2018 (Ord. 2018-24) and is no longer responsible for running the election. The election is conducted by Santa Fe County.</p>                                
+                                </span>
+                                <span class="spanish-content">
+                                <p>The City of Santa Fe is providing educational material regarding Ranked Choice Voting for the upcoming election. The City "opted-in" to the Local Election Act in 2018 (Ord. 2018-24) and is no longer responsible for running the election. The election is conducted by Santa Fe County.</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
 
                 </section>
             </div>
